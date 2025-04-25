@@ -12,36 +12,30 @@
       background: #ffffff;
       color: #333;
     }
-
     section {
       padding: 60px 20px;
       text-align: center;
     }
-
     h2 {
       font-size: 2rem;
       margin-bottom: 40px;
     }
-
     .hero {
       background: linear-gradient(to bottom right, #FFE4F0, #FFFFFF);
     }
-
     .hero h1 {
       font-size: 2.4rem;
       font-weight: bold;
       line-height: 1.4;
       margin-bottom: 20px;
     }
-
     .hero p {
       font-size: 1.1rem;
       color: #555;
       line-height: 1.6;
       margin-bottom: 40px;
     }
-
-    .hero a {
+    .hero a, .register a {
       background-color: #FF70A6;
       color: white;
       padding: 14px 28px;
@@ -49,12 +43,12 @@
       font-size: 1rem;
       text-decoration: none;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      display: inline-block;
+      margin-top: 20px;
     }
-
     .features-section {
       background-color: #F2FBFF;
     }
-
     .features-grid {
       display: flex;
       flex-wrap: wrap;
@@ -63,7 +57,6 @@
       max-width: 1000px;
       margin: 0 auto;
     }
-
     .feature-box {
       background: white;
       border-radius: 16px;
@@ -73,19 +66,16 @@
       max-width: 420px;
       text-align: left;
     }
-
     .feature-box h3 {
       font-size: 1.3rem;
       margin-bottom: 12px;
       color: #FF70A6;
     }
-
     .feature-box p {
       font-size: 1rem;
       color: #444;
       line-height: 1.6;
     }
-
     .recommended-users ul {
       list-style: none;
       padding: 0;
@@ -93,25 +83,21 @@
       margin: 0 auto;
       text-align: left;
     }
-
     .recommended-users li {
       margin-bottom: 16px;
       font-size: 1.1rem;
       padding-left: 1.5em;
       position: relative;
     }
-
     .recommended-users li::before {
       content: "✔";
       position: absolute;
       left: 0;
       color: #FF70A6;
     }
-
     .user-voices {
       background-color: #FFF6F8;
     }
-
     .voice-box {
       max-width: 700px;
       margin: 0 auto 40px;
@@ -121,35 +107,19 @@
       padding: 24px;
       text-align: left;
     }
-
     .voice-box h3 {
       margin-top: 0;
       color: #FF70A6;
     }
-
     .register {
       background: linear-gradient(to bottom right, #FFE4F0, #FFFFFF);
     }
-
-    .register a {
-      display: inline-block;
-      background-color: #FF70A6;
-      color: white;
-      padding: 14px 28px;
-      border-radius: 30px;
-      font-size: 1rem;
-      text-decoration: none;
-      margin-top: 20px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-
     footer {
       background-color: #f5f5f5;
       padding: 40px 20px;
       font-size: 0.9rem;
       color: #777;
     }
-
     @media (max-width: 768px) {
       .hero h1 {
         font-size: 1.8rem;
@@ -226,7 +196,10 @@
   <section class="register" id="pre-register">
     <h2>先行登録で最新情報をゲット！</h2>
     <p>LINEで通知を受け取って、いち早くK-Linkの世界へ。</p>
-    <a href="#">🌟 LINEで先行登録する</a>
+    <a href="https://lin.ee/1R0CxWj">
+      <img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36" border="0">
+    </a><br><br>
+    <p style="font-size: 0.9rem; color: #666;">友だち追加後、登録フォームのURLが届きます📩</p>
   </section>
 
   <footer>
